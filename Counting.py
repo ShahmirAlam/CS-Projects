@@ -1,8 +1,5 @@
 ## Name:Shahmir Alam    
-## PID:A17226722
-#######################################################
-############## QUESTION 1 HERE ################
-#######################################################
+
 def myCount(L):
     count, sorted_L = count_and_sort(L)
     return count, sorted_L
@@ -47,9 +44,6 @@ L = [6, 1, -4, 10, 2, 7]
 count, sorted_L = myCount(L)
 print(count, sorted_L)
 
-#########################################################
-############## QUESTION 2 HERE ##################
-#########################################################
 def myMinDistance(P):
     P.sort()
     min_dist = min_distance(P)
